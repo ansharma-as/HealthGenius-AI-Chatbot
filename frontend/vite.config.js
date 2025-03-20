@@ -17,7 +17,7 @@ export default defineConfig({
   },
   server: {
     strictPort: true,
-    port: 5173, // Default Vite port
+    port: 5454, // Default Vite port
   },
   resolve: {
     alias: {

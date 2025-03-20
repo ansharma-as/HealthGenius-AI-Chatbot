@@ -207,12 +207,17 @@ class ChatDeepInfra(BaseChatModel):
     # client: Any  #: :meta private:
     model_name: str = Field(default="meta-llama/Llama-2-70b-chat-hf", alias="model")
     """Model name to use."""
+
+    url: str = "https://api.deepinfra.com/v1/openai/chat/completions"
+    """URL to use for the API call."""
+
     deepinfra_api_token: Optional[str] = None
     request_timeout: Optional[float] = Field(default=None, alias="timeout")
     temperature: Optional[float] = 1
-    model_kwargs: Dict[str, Any] = Field(default_factory=dict)
     """Run inference with this temperature. Must be in the closed
        interval [0.0, 1.0]."""
+    model_kwargs: Dict[str, Any] = Field(default_factory=dict)
+    """Holds any model parameters valid for API call not explicitly specified."""
     top_p: Optional[float] = None
     """Decode using nucleus sampling: consider the smallest set of tokens whose
        probability sum is at least top_p. Must be in the closed interval [0.0, 1.0]."""
@@ -286,7 +291,7 @@ class ChatDeepInfra(BaseChatModel):
                 async with request.apost(
                     url=self._url(), data=self._body(kwargs), timeout=request_timeout
                 ) as response:
-                    self._handle_status(response.status, response.text)
+                    self._handle_status(response.status, await response.text())
                     return await response.json()
             except Exception as e:
                 print("EX", e)  # noqa: T201
@@ -464,12 +469,11 @@ class ChatDeepInfra(BaseChatModel):
             raise ValueError(f"DeepInfra received an invalid payload: {text}")
         elif code != 200:
             raise Exception(
-                f"DeepInfra returned an unexpected response with status "
-                f"{code}: {text}"
+                f"DeepInfra returned an unexpected response with status {code}: {text}"
             )
 
     def _url(self) -> str:
-        return "https://stage.api.deepinfra.com/v1/openai/chat/completions"
+        return self.url
 
     def _headers(self) -> Dict:
         return {
