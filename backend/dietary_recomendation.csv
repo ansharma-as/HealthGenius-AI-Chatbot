@@ -1,0 +1,751 @@
+food,calorie,protein,carbs,fat,Goals,Preferences,Restrictions
+Chicken Breast,165,31.0,0.0,3.6,Weight loss,Protein-Rich Foods,Lactose intolerant
+Salmon,206,22.0,0.0,13.0,Muscle gain,Protein-Rich Foods,No Restriction
+Brown Rice,215,5.0,45.0,1.6,General health,Whole Grains,Gluten-free
+Broccoli,55,3.7,11.0,0.6,Weight loss,Vegetables,Lactose intolerant
+Almonds,7,0.3,0.6,0.6,Weight loss,Protein-Rich Foods,No Restriction
+Whole Wheat Bread,69,3.0,12.0,1.0,Muscle gain,Whole Grains,No Restriction
+Greek Yogurt,59,10.0,3.0,0.4,General health,Dairy,No Restriction
+Spinach,23,2.9,3.0,0.4,General health,Vegetables,No Restriction
+Apple,95,0.5,25.0,0.3,Weight loss,Fruits,Gluten-free
+Olive Oil,119,0.0,0.0,13.5,General health,,No Restriction
+Quinoa,120,4.0,21.0,2.0,Muscle gain,Whole Grains,Gluten-free
+Banana,105,1.3,27.0,0.3,General health,Fruits,No Restriction
+Eggs,68,5.5,0.6,4.8,General health,Protein-Rich Foods,No Restriction
+Avocado,160,2.0,9.0,15.0,Weight loss,Fruits,No Restriction
+Cottage Cheese,206,28.0,6.0,9.0,Muscle gain,Dairy,Lactose intolerant
+Sweet Potato,112,2.0,26.0,0.2,General health,Whole Grains,No Restriction
+Turkey Breast,135,30.0,0.0,1.0,Weight loss,Protein-Rich Foods,No Restriction
+Tofu,144,15.0,3.9,8.2,General health,Vegetarian,No Restriction
+Quinoa Salad,180,4.0,29.0,6.0,Muscle gain,Whole Grains,Gluten-free
+Blueberries,57,0.7,14.5,0.3,General health,Fruits,No Restriction
+Salad Greens,5,0.5,1.0,0.0,Weight loss,Vegetables,No Restriction
+Peanut Butter,188,8.0,6.0,16.0,Muscle gain,Protein-Rich Foods,No Restriction
+Mango,60,0.8,15.0,0.4,General health,Fruits,No Restriction
+Chickpeas,164,8.9,27.0,2.6,Muscle gain,Protein-Rich Foods,Vegetarian
+Yogurt Parfait,210,12.0,36.0,3.5,Muscle gain,Dairy,No Restriction
+Cauliflower Rice,25,2.0,5.0,0.2,Weight loss,Vegetables,No Restriction
+Lentils,230,18.0,40.0,1.0,Muscle gain,Vegetarian,No Restriction
+Salmon Salad,280,25.0,8.0,18.0,Weight loss,Protein-Rich Foods,No Restriction
+Oatmeal,150,5.0,27.0,2.0,Muscle gain,Whole Grains,No Restriction
+Cucumber,16,0.7,3.6,0.2,Weight loss,Vegetables,No Restriction
+Pineapple,50,0.5,13.0,0.1,General health,Fruits,No Restriction
+Cottage Cheese Wrap,300,25.0,30.0,10.0,Muscle gain,Dairy,No Restriction
+Kale,33,2.9,6.7,0.5,Weight loss,Vegetables,No Restriction
+Ground Turkey,220,26.0,0.0,12.0,Weight loss,Protein-Rich Foods,No Restriction
+Quinoa Bowl,320,14.0,54.0,6.0,Muscle gain,Whole Grains,Gluten-free
+Carrot Sticks,41,0.9,10.0,0.2,General health,Vegetables,No Restriction
+Shrimp Stir Fry,200,25.0,12.0,8.0,Weight loss,Protein-Rich Foods,No Restriction
+Pumpkin Seeds,180,9.0,7.0,14.0,Muscle gain,Protein-Rich Foods,No Restriction
+Mushroom Risotto,320,8.0,56.0,8.0,General health,Vegetarian,No Restriction
+Grapes,69,0.6,18.0,0.2,General health,Fruits,No Restriction
+Tuna Salad Wrap,250,20.0,15.0,12.0,Weight loss,Protein-Rich Foods,No Restriction
+Chia Pudding,150,4.0,12.0,9.0,Weight loss,Whole Grains,Vegetarian
+Green Beans,31,1.8,7.0,0.1,Weight loss,Vegetables,No Restriction
+Cottage Cheese Pancakes,280,25.0,20.0,10.0,Muscle gain,Dairy,No Restriction
+Barley Salad,220,5.0,45.0,2.0,General health,Whole Grains,Vegetarian
+Kiwi,61,1.1,15.0,0.5,General health,Fruits,No Restriction
+Turkey Burger,250,28.0,5.0,13.0,Weight loss,Protein-Rich Foods,No Restriction
+Quiche,320,14.0,18.0,22.0,General health,Dairy,No Restriction
+Black Beans,120,7.0,22.0,1.0,Muscle gain,Vegetarian,No Restriction
+Orange,62,1.2,16.0,0.2,General health,Fruits,No Restriction
+Grilled Chicken Salad,180,25.0,8.0,6.0,Weight loss,Protein-Rich Foods,No Restriction
+Hummus,70,2.0,8.0,4.0,General health,Vegetarian,No Restriction
+Cabbage Slaw,45,1.2,11.0,0.1,Weight loss,Vegetables,No Restriction
+Milk,103,8.0,12.0,2.4,Muscle gain,Dairy,Lactose intolerant
+Spaghetti Squash,31,1.0,7.0,0.6,General health,Vegetarian,No Restriction
+Papaya,43,0.5,11.0,0.4,General health,Fruits,No Restriction
+Tofu Stir-Fry,180,16.0,12.0,8.0,General health,Vegetarian,No Restriction
+Walnuts,185,4.3,3.9,18.0,Muscle gain,Nuts,No Restriction
+Pasta Primavera,250,8.0,50.0,2.0,General health,Whole Grains,Vegetarian
+Dragon Fruit,60,1.0,13.0,1.0,General health,Fruits,No Restriction
+Salmon Sushi Roll,300,15.0,40.0,10.0,Weight loss,Protein-Rich Foods,No Restriction
+Quinoa Salad Bowl,280,9.0,40.0,8.0,General health,Whole Grains,Vegetarian
+Asparagus,20,2.2,3.7,0.2,Weight loss,Vegetables,No Restriction
+Almond Milk,13,1.0,0.5,1.0,Muscle gain,Nuts,Lactose intolerant
+Couscous Salad,180,5.0,35.0,1.5,General health,Whole Grains,Vegetarian
+Mango Smoothie,120,2.0,30.0,0.6,General health,Fruits,No Restriction
+Pecans,196,2.6,3.9,20.0,Muscle gain,Nuts,No Restriction
+Eggplant Parmesan,220,12.0,14.0,14.0,General health,Vegetarian,No Restriction
+Grapefruit,52,0.6,13.0,0.2,Weight loss,Fruits,No Restriction
+Chicken Caesar Salad,350,30.0,10.0,20.0,Weight loss,Protein-Rich Foods,No Restriction
+Buckwheat Pancakes,210,6.0,42.0,2.0,General health,Whole Grains,No Restriction
+Zucchini,17,1.2,3.1,0.2,Weight loss,Vegetables,No Restriction
+Coconut Milk,230,2.0,5.0,24.0,Muscle gain,Nuts,No Restriction
+Chickpea Curry,250,12.0,45.0,5.0,General health,Vegetarian,No Restriction
+Paprika,19,0.9,3.7,0.9,General health,Spices,No Restriction
+Eggplant Stir-Fry,120,2.0,26.0,1.0,Weight loss,Vegetarian,No Restriction
+Hazelnuts,176,4.2,5.1,17.7,Muscle gain,Nuts,No Restriction
+Cauliflower Pizza,280,12.0,40.0,9.0,General health,Vegetarian,No Restriction
+Berries Mix,70,1.0,17.0,0.5,General health,Fruits,No Restriction
+Turkey Wrap,220,20.0,15.0,8.0,Weight loss,Protein-Rich Foods,No Restriction
+Buckwheat Salad,200,5.0,40.0,2.0,General health,Whole Grains,No Restriction
+Snap Peas,41,2.5,8.0,0.2,Weight loss,Vegetables,No Restriction
+Coconut Water,46,0.9,8.9,0.5,Muscle gain,Fruits,No Restriction
+Lentil Soup,150,9.0,28.0,1.0,General health,Vegetarian,No Restriction
+Pomegranate,83,1.7,18.7,1.0,General health,Fruits,No Restriction
+Cabbage Roll,150,10.0,20.0,3.0,Weight loss,Vegetarian,No Restriction
+Pistachios,160,6.0,8.0,13.0,Muscle gain,Nuts,No Restriction
+Vegetable Curry,220,6.0,40.0,5.0,General health,Vegetarian,No Restriction
+Clementine,35,0.6,8.3,0.2,General health,Fruits,No Restriction
+Grilled Shrimp Salad,180,22.0,10.0,7.0,Weight loss,Protein-Rich Foods,No Restriction
+Wild Rice Bowl,280,7.0,56.0,2.0,General health,Whole Grains,No Restriction
+Brussels Sprouts,38,3.0,8.0,0.3,Weight loss,Vegetables,No Restriction
+Coconut Yogurt,120,2.0,15.0,5.0,Muscle gain,Dairy,Lactose intolerant
+Chickpea Salad Wrap,220,9.0,40.0,4.0,General health,Vegetarian,No Restriction
+Blueberry Smoothie,120,2.0,30.0,0.5,General health,Fruits,No Restriction
+Stir-Fried Tofu,180,16.0,10.0,12.0,Weight loss,Vegetarian,No Restriction
+Macadamia Nuts,200,2.2,4.0,21.0,Muscle gain,Nuts,No Restriction
+Egg Fried Rice,250,8.0,45.0,5.0,General health,Whole Grains,No Restriction
+Passion Fruit,68,2.2,17.0,0.5,General health,Fruits,No Restriction
+Grilled Turkey Breast,170,30.0,1.0,4.0,Weight loss,Protein-Rich Foods,No Restriction
+Millet Salad,210,7.0,40.0,3.0,General health,Whole Grains,No Restriction
+Artichoke,47,3.3,10.0,0.2,Weight loss,Vegetables,No Restriction
+Coconut Oil,120,0.0,0.0,14.0,Muscle gain,Fats,No Restriction
+Black Bean Burger,220,15.0,30.0,4.0,General health,Vegetarian,No Restriction
+Raspberry Smoothie,90,1.0,22.0,0.5,General health,Fruits,No Restriction
+Chickpea Spinach Curry,220,8.0,35.0,5.0,General health,Vegetarian,No Restriction
+Sunflower Seeds,200,7.0,7.0,17.0,Muscle gain,Nuts,No Restriction
+Caprese Salad,180,12.0,5.0,13.0,Weight loss,Dairy,No Restriction
+Papaya Salad,90,1.3,22.0,0.5,General health,Fruits,No Restriction
+Shrimp Scampi,220,25.0,6.0,11.0,Weight loss,Protein-Rich Foods,No Restriction
+Farro Bowl,240,10.0,48.0,1.5,General health,Whole Grains,No Restriction
+Radish,16,0.7,3.4,0.1,Weight loss,Vegetables,No Restriction
+Avocado Toast,200,4.0,14.0,15.0,Muscle gain,Fats,No Restriction
+Mushroom Risotto,300,9.0,45.0,8.0,General health,Vegetarian,No Restriction
+Strawberry Banana Smoothie,120,1.0,30.0,0.5,General health,Fruits,No Restriction
+Lentil Stir-Fry,180,8.0,30.0,4.0,Weight loss,Vegetarian,No Restriction
+Brazil Nuts,190,4.0,3.5,19.0,Muscle gain,Nuts,No Restriction
+Quinoa Stuffed Bell Peppers,260,9.0,45.0,5.0,General health,Whole Grains,Vegetarian
+Watermelon,30,0.6,8.0,0.2,General health,Fruits,No Restriction
+Grilled Salmon Salad,200,25.0,10.0,8.0,Weight loss,Protein-Rich Foods,No Restriction
+Bulgur Pilaf,180,6.0,35.0,1.0,General health,Whole Grains,No Restriction
+Cucumber Salad,25,0.8,5.4,0.3,Weight loss,Vegetables,No Restriction
+Almond Butter,190,6.0,6.0,16.0,Muscle gain,Nuts,No Restriction
+Chickpea Buddha Bowl,240,10.0,35.0,7.0,General health,Vegetarian,No Restriction
+Pineapple Coconut Smoothie,100,1.0,25.0,0.5,General health,Fruits,No Restriction
+Sweet Potato Curry,220,6.0,40.0,3.0,General health,Vegetarian,No Restriction
+Pine Nuts,190,3.5,3.7,19.0,Muscle gain,Nuts,No Restriction
+Egg Fried Quinoa,230,10.0,30.0,7.0,General health,Whole Grains,No Restriction
+Melon,45,0.9,11.0,0.2,General health,Fruits,No Restriction
+Grilled Chicken Wrap,280,30.0,15.0,10.0,Weight loss,Protein-Rich Foods,No Restriction
+Barley Salad Bowl,220,5.0,45.0,2.0,General health,Whole Grains,Vegetarian
+Zucchini Noodles,30,2.0,5.0,0.3,Weight loss,Vegetables,No Restriction
+Cashew Butter,190,5.0,8.0,16.0,Muscle gain,Nuts,No Restriction
+Chickpea Fajita Bowl,260,12.0,40.0,5.0,General health,Vegetarian,No Restriction
+Mango Pineapple Smoothie,110,1.0,28.0,0.5,General health,Fruits,No Restriction
+Quinoa Stir-Fry,200,8.0,35.0,5.0,Weight loss,Vegetarian,No Restriction
+Pecan Nuts,196,2.6,3.9,20.0,Muscle gain,Nuts,No Restriction
+Cauliflower Rice Bowl,180,5.0,40.0,2.0,General health,Vegetarian,No Restriction
+Dragon Fruit Bowl,80,2.0,18.0,0.5,General health,Fruits,No Restriction
+Grilled Shrimp Skewers,160,22.0,5.0,8.0,Weight loss,Protein-Rich Foods,No Restriction
+Millet Porridge,220,5.0,45.0,2.0,General health,Whole Grains,No Restriction
+Broccoli Salad,35,3.0,6.0,0.4,Weight loss,Vegetables,No Restriction
+Pistachio Butter,180,5.0,6.0,15.0,Muscle gain,Nuts,No Restriction
+Chickpea Stir-Fry,240,10.0,35.0,6.0,General health,Vegetarian,No Restriction
+Papaya Smoothie Bowl,120,2.0,30.0,0.5,General health,Fruits,No Restriction
+Sweet Potato Bowl,250,6.0,50.0,3.0,General health,Vegetarian,No Restriction
+Hazelnut Butter,180,4.0,3.0,18.0,Muscle gain,Nuts,No Restriction
+Spaghetti Squash Pasta,180,5.0,40.0,2.0,General health,Whole Grains,Vegetarian
+Apple Slices,52,0.3,14.0,0.2,Weight loss,Fruits,No Restriction
+Grilled Turkey Burger,200,25.0,2.0,10.0,Weight loss,Protein-Rich Foods,No Restriction
+Buckwheat Pancake Stack,220,7.0,45.0,1.5,General health,Whole Grains,No Restriction
+Cabbage Slaw Bowl,60,1.5,15.0,0.2,Weight loss,Vegetables,No Restriction
+Almond Yogurt,100,3.0,15.0,3.0,Muscle gain,Dairy,Lactose intolerant
+Lentil Veggie Bowl,230,15.0,40.0,2.0,General health,Vegetarian,No Restriction
+Mixed Berry Smoothie,110,2.0,25.0,0.5,General health,Fruits,No Restriction
+Chickpea Avocado Salad,220,8.0,35.0,7.0,General health,Vegetarian,No Restriction
+Walnut Butter,200,4.5,3.0,18.0,Muscle gain,Nuts,No Restriction
+Cauliflower Gnocchi,190,5.0,35.0,1.0,General health,Vegetarian,No Restriction
+Grilled Chicken Skewers,180,26.0,3.0,8.0,Weight loss,Protein-Rich Foods,No Restriction
+Quinoa Breakfast Bowl,240,8.0,45.0,4.0,General health,Whole Grains,No Restriction
+Zucchini Fritters,120,5.0,15.0,6.0,Weight loss,Vegetables,No Restriction
+Cashew Milk,60,1.0,8.0,3.0,Muscle gain,Nuts,Lactose intolerant
+Chickpea Tomato Curry,250,12.0,30.0,5.0,General health,Vegetarian,No Restriction
+Berry Chia Pudding,150,3.0,20.0,7.0,General health,Fruits,No Restriction
+Spinach Quinoa Salad,180,6.0,30.0,5.0,General health,Vegetarian,No Restriction
+Sun-Dried Tomato Pesto,160,2.0,6.0,16.0,Muscle gain,Nuts,No Restriction
+Cauliflower Pizza,220,8.0,30.0,9.0,General health,Vegetarian,No Restriction
+Turkey and Veggie Stir-Fry,200,24.0,8.0,9.0,Weight loss,Protein-Rich Foods,No Restriction
+Quinoa Buddha Bowl,240,9.0,40.0,6.0,General health,Whole Grains,Vegetarian
+Cucumber Rolls,30,1.0,6.0,0.5,Weight loss,Vegetables,No Restriction
+Coconut Cream,120,1.0,1.0,13.0,Muscle gain,Nuts,No Restriction
+Chickpea Spinach Curry,250,12.0,35.0,6.0,General health,Vegetarian,No Restriction
+Blueberry Acai Bowl,130,2.0,30.0,1.0,General health,Fruits,No Restriction
+Chickpea and Quinoa Bowl,230,9.0,38.0,5.0,General health,Vegetarian,No Restriction
+Cashew Hummus,180,6.0,10.0,14.0,Muscle gain,Nuts,No Restriction
+Spaghetti Squash Stir-Fry,190,5.0,40.0,2.0,General health,Vegetarian,No Restriction
+Orange Slices,62,1.2,15.0,0.2,General health,Fruits,No Restriction
+Salmon Salad with Avocado,220,24.0,10.0,10.0,Weight loss,Protein-Rich Foods,No Restriction
+Millet Porridge Bowl,250,7.0,50.0,2.0,General health,Whole Grains,No Restriction
+Grilled Eggplant,40,2.0,8.0,0.5,Weight loss,Vegetables,No Restriction
+Hazelnut Milk,80,2.0,1.0,7.0,Muscle gain,Nuts,Lactose intolerant
+Chickpea and Spinach Stew,220,11.0,30.0,4.0,General health,Vegetarian,No Restriction
+Mixed Berry Parfait,150,3.0,25.0,4.0,General health,Fruits,No Restriction
+Quinoa and Black Bean Bowl,250,10.0,45.0,4.0,General health,Vegetarian,No Restriction
+Almond Pesto,160,3.0,5.0,14.0,Muscle gain,Nuts,No Restriction
+Zucchini Noodles with Pesto,180,5.0,15.0,12.0,General health,Vegetarian,No Restriction
+Kiwi Slices,61,1.1,14.0,0.5,General health,Fruits,No Restriction
+Grilled Turkey and Veggie Wrap,220,26.0,10.0,8.0,Weight loss,Protein-Rich Foods,No Restriction
+Farro and Vegetable Salad,210,6.0,40.0,3.0,General health,Whole Grains,No Restriction
+Cauliflower and Broccoli Soup,45,3.0,8.0,0.5,Weight loss,Vegetables,No Restriction
+Chickpea and Tomato Pasta,240,12.0,30.0,5.0,General health,Vegetarian,No Restriction
+Mixed Fruit Smoothie,110,2.0,25.0,0.5,General health,Fruits,No Restriction
+Chickpea and Kale Salad,200,8.0,30.0,7.0,General health,Vegetarian,No Restriction
+Peanut Butter,190,8.0,6.0,16.0,Muscle gain,Nuts,No Restriction
+Mushroom and Spinach Risotto,220,7.0,45.0,4.0,General health,Vegetarian,No Restriction
+Pear Slices,57,0.6,15.0,0.2,General health,Fruits,No Restriction
+Grilled Chicken and Quinoa Bowl,240,28.0,15.0,9.0,Weight loss,Protein-Rich Foods,No Restriction
+Brown Rice and Vegetable Stir-Fry,200,5.0,40.0,2.0,General health,Whole Grains,Vegetarian
+Cucumber and Tomato Salad,30,1.0,6.0,0.3,Weight loss,Vegetables,No Restriction
+Oat Milk,80,1.0,15.0,1.0,Muscle gain,Nuts,Lactose intolerant
+Lentil and Quinoa Stew,230,13.0,30.0,5.0,General health,Vegetarian,No Restriction
+Banana and Berry Smoothie,120,2.0,30.0,0.5,General health,Fruits,No Restriction
+Quinoa and Chickpea Salad,220,10.0,35.0,5.0,General health,Vegetarian,No Restriction
+Cashew and Basil Pesto,170,4.0,7.0,15.0,Muscle gain,Nuts,No Restriction
+Sweet Potato Noodles,190,3.0,45.0,1.0,General health,Vegetarian,No Restriction
+Mango Slices,60,0.6,15.0,0.4,General health,Fruits,No Restriction
+Grilled Salmon and Asparagus,240,30.0,8.0,12.0,Weight loss,Protein-Rich Foods,No Restriction
+Quinoa and Vegetable Stir-Fry,210,7.0,40.0,3.0,General health,Whole Grains,Vegetarian
+Tomato and Cucumber Salsa,25,1.0,5.0,0.2,Weight loss,Vegetables,No Restriction
+Chickpea and Spinach Pasta,240,12.0,30.0,5.0,General health,Vegetarian,No Restriction
+Pineapple and Mango Smoothie,110,1.0,28.0,0.5,General health,Fruits,No Restriction
+Whole Wheat Bread,80,3.0,15.0,1.0,General health,Whole Grains,No Restriction
+Milk,120,8.0,12.0,5.0,General health,Dairy,Lactose intolerant
+Strawberry Jam,50,0.0,12.0,0.0,General health,Sweets,No Restriction
+Peanut Butter Sandwich,300,10.0,30.0,15.0,General health,Protein-Rich Foods,No Restriction
+Grilled Chicken Burger,350,25.0,30.0,15.0,Weight loss,Protein-Rich Foods,No Restriction
+Vegetarian Pizza,250,10.0,35.0,8.0,General health,Vegetarian,No Restriction
+Eggs,70,6.0,1.0,5.0,General health,Protein-Rich Foods,No Restriction
+Avocado Toast,200,4.0,15.0,15.0,General health,Fats,No Restriction
+Orange Juice,110,1.0,26.0,0.5,General health,Fruits,No Restriction
+Oatmeal,150,5.0,27.0,2.5,General health,Whole Grains,No Restriction
+Mango Smoothie,120,2.0,30.0,0.5,General health,Fruits,No Restriction
+Chicken Sandwich,300,20.0,30.0,12.0,Weight loss,Protein-Rich Foods,No Restriction
+Cheese Pizza,280,12.0,36.0,10.0,General health,Dairy,No Restriction
+Apple,95,0.5,25.0,0.3,General health,Fruits,No Restriction
+Pasta with Tomato Sauce,200,7.0,40.0,1.0,General health,Vegetarian,No Restriction
+Yogurt,150,8.0,12.0,8.0,General health,Dairy,Lactose intolerant
+Scrambled Eggs,140,14.0,1.0,9.0,General health,Protein-Rich Foods,No Restriction
+Peanut Butter and Jelly Sandwich,350,10.0,45.0,15.0,General health,Sweets,No Restriction
+Green Salad,50,2.0,10.0,0.5,Weight loss,Vegetables,No Restriction
+Brown Rice,215,5.0,45.0,1.6,General health,Whole Grains,No Restriction
+Coffee,2,0.3,0.0,0.1,General health,Beverages,Caffeine sensitive
+Cheese Sandwich,320,15.0,30.0,15.0,Weight loss,Dairy,No Restriction
+Margherita Pizza,220,10.0,25.0,10.0,General health,Vegetarian,No Restriction
+Spaghetti Bolognese,300,15.0,40.0,10.0,General health,Protein-Rich Foods,No Restriction
+Milkshake,200,5.0,30.0,8.0,General health,Dairy,Lactose intolerant
+Hard-Boiled Eggs,68,5.0,0.6,5.0,General health,Protein-Rich Foods,No Restriction
+Peanut Butter Toast,180,7.0,20.0,10.0,Muscle gain,Nuts,No Restriction
+Vegetable Stir-Fry,120,5.0,20.0,3.0,Weight loss,Vegetables,No Restriction
+Salmon Sushi Roll,220,15.0,25.0,10.0,General health,Seafood,No Restriction
+Green Tea,0,0.0,0.0,0.0,General health,Beverages,Caffeine sensitive
+Turkey and Cheese Wrap,300,20.0,25.0,15.0,Weight loss,Dairy,No Restriction
+Vegetarian Calzone,250,12.0,30.0,8.0,General health,Vegetarian,No Restriction
+Apple Slices with Peanut Butter,180,5.0,20.0,10.0,Muscle gain,Nuts,No Restriction
+Vegetable Lasagna,280,15.0,30.0,12.0,General health,Vegetarian,No Restriction
+Iced Coffee,30,0.5,5.0,0.0,General health,Beverages,Caffeine sensitive
+Greek Yogurt Parfait,200,15.0,20.0,8.0,General health,Dairy,Lactose intolerant
+Cottage Cheese with Pineapple,150,14.0,10.0,6.0,General health,Dairy,No Restriction
+Grilled Cheese Sandwich,320,15.0,30.0,15.0,Weight loss,Dairy,No Restriction
+Baked Chicken Breast,165,31.0,0.0,3.6,General health,Protein-Rich Foods,No Restriction
+Green Smoothie,100,2.0,25.0,0.5,General health,Fruits,No Restriction
+Classic Hamburger,300,15.0,30.0,15.0,Weight loss,Protein-Rich Foods,No Restriction
+Caprese Salad,150,8.0,10.0,10.0,General health,Vegetarian,No Restriction
+Orange,62,1.2,15.0,0.2,General health,Fruits,No Restriction
+Quinoa Salad,200,7.0,35.0,5.0,General health,Whole Grains,Vegetarian
+Iced Tea,5,0.0,1.0,0.0,General health,Beverages,Caffeine sensitive
+Plain Yogurt,100,10.0,5.0,5.0,General health,Dairy,Lactose intolerant
+Peanut Butter and Banana Sandwich,350,10.0,45.0,15.0,General health,Sweets,No Restriction
+Caesar Salad,250,15.0,10.0,18.0,Weight loss,Vegetables,No Restriction
+Grilled Salmon,200,22.0,0.0,13.0,General health,Seafood,No Restriction
+Black Coffee,2,0.2,0.0,0.0,General health,Beverages,Caffeine sensitive
+Turkey Club Sandwich,350,25.0,20.0,18.0,Weight loss,Protein-Rich Foods,No Restriction
+Margherita Flatbread,220,8.0,30.0,8.0,General health,Vegetarian,No Restriction
+Vegetable Stir-Fry,150,5.0,25.0,5.0,Weight loss,Vegetables,No Restriction
+Iced Lemonade,80,0.0,20.0,0.0,General health,Beverages,No Restriction
+Almond Milk,60,1.0,1.0,5.0,General health,Nuts,Lactose intolerant
+Banana Smoothie,120,1.0,30.0,0.5,General health,Fruits,No Restriction
+Roast Chicken,250,30.0,0.0,15.0,General health,Protein-Rich Foods,No Restriction
+Espresso,1,0.1,0.0,0.0,General health,Beverages,Caffeine sensitive
+BLT Sandwich,400,15.0,30.0,25.0,Weight loss,Protein-Rich Foods,No Restriction
+Vegetarian Wrap,280,12.0,35.0,10.0,General health,Vegetarian,No Restriction
+Quinoa Bowl,300,10.0,40.0,12.0,General health,Whole Grains,Vegetarian
+Iced Latte,60,1.0,6.0,3.0,General health,Beverages,Caffeine sensitive
+Coconut Milk,80,1.0,1.0,7.0,General health,Nuts,Lactose intolerant
+Fruit Salad,120,1.0,30.0,0.5,General health,Fruits,No Restriction
+Grilled Cheese,230,10.0,20.0,15.0,General health,Dairy,No Restriction
+Grilled Shrimp,120,20.0,2.0,5.0,General health,Seafood,No Restriction
+Iced Green Tea,5,0.0,1.0,0.0,General health,Beverages,Caffeine sensitive
+Caesar Wrap,350,15.0,25.0,22.0,Weight loss,Protein-Rich Foods,No Restriction
+Margherita Panini,300,10.0,30.0,15.0,General health,Vegetarian,No Restriction
+Banana,95,1.3,25.0,0.3,General health,Fruits,No Restriction
+Brown Rice Bowl,250,8.0,40.0,5.0,General health,Whole Grains,Vegetarian
+Iced Chai Latte,80,1.0,10.0,4.0,General health,Beverages,Caffeine sensitive
+Almond Butter,180,7.0,5.0,15.0,General health,Nuts,No Restriction
+Greek Salad,200,10.0,15.0,15.0,General health,Vegetarian,No Restriction
+Cheese Quesadilla,320,15.0,30.0,15.0,General health,Dairy,No Restriction
+Grilled Tofu,180,15.0,10.0,12.0,General health,Vegetarian,No Restriction
+Black Tea,2,0.2,0.5,0.0,General health,Beverages,Caffeine sensitive
+Chicken Caesar Salad,280,20.0,15.0,18.0,Weight loss,Protein-Rich Foods,No Restriction
+Mushroom Risotto,220,6.0,40.0,5.0,General health,Vegetarian,No Restriction
+Pear,57,0.6,15.0,0.2,General health,Fruits,No Restriction
+Quinoa and Black Bean Burrito,300,12.0,45.0,8.0,General health,Whole Grains,Vegetarian
+Iced Mocha,120,1.0,20.0,5.0,General health,Beverages,Caffeine sensitive
+Cashew Butter,160,5.0,8.0,14.0,General health,Nuts,No Restriction
+Caprese Pizza,250,12.0,30.0,10.0,General health,Vegetarian,No Restriction
+Turkey and Cheese Quesadilla,280,20.0,15.0,18.0,Weight loss,Protein-Rich Foods,No Restriction
+Salmon Fillet,220,25.0,0.0,13.0,General health,Seafood,No Restriction
+Chicken Avocado Wrap,320,20.0,25.0,15.0,Weight loss,Protein-Rich Foods,No Restriction
+Margherita Pizza,280,12.0,30.0,12.0,General health,Vegetarian,No Restriction
+Quinoa and Vegetable Stir-Fry,200,5.0,40.0,2.0,General health,Whole Grains,Vegetarian
+Iced Americano,5,0.5,1.0,0.0,General health,Beverages,Caffeine sensitive
+Coconut Oil,120,0.0,0.0,14.0,General health,Fats,No Restriction
+Greek Salad,180,8.0,12.0,12.0,General health,Vegetarian,No Restriction
+Grilled Chicken Salad,180,25.0,10.0,8.0,Weight loss,Protein-Rich Foods,No Restriction
+Iced Chamomile Tea,0,0.0,0.0,0.0,General health,Beverages,Caffeine sensitive
+Turkey and Swiss Sandwich,350,20.0,30.0,15.0,Weight loss,Protein-Rich Foods,No Restriction
+Vegetarian Margherita Flatbread,240,8.0,35.0,7.0,General health,Vegetarian,No Restriction
+Quinoa and Chickpea Bowl,280,10.0,40.0,9.0,General health,Whole Grains,Vegetarian
+Iced Rooibos Tea,0,0.0,0.0,0.0,General health,Beverages,Caffeine sensitive
+Olive Oil,120,0.0,0.0,14.0,General health,Fats,No Restriction
+Caesar Salad,200,10.0,15.0,15.0,General health,Vegetarian,No Restriction
+Cheese and Tomato Panini,300,12.0,30.0,15.0,General health,Dairy,No Restriction
+Grilled Salmon Salad,250,30.0,15.0,12.0,Weight loss,Seafood,No Restriction
+Iced Herbal Tea,5,0.0,1.0,0.0,General health,Beverages,Caffeine sensitive
+Chicken Caesar Wrap,320,22.0,20.0,15.0,Weight loss,Protein-Rich Foods,No Restriction
+Vegetarian Margherita Pizza,280,12.0,30.0,10.0,General health,Vegetarian,No Restriction
+Quinoa and Black Bean Salad,220,8.0,35.0,5.0,General health,Whole Grains,Vegetarian
+Iced Peppermint Tea,0,0.0,0.0,0.0,General health,Beverages,Caffeine sensitive
+Avocado,160,2.0,9.0,15.0,General health,Fats,No Restriction
+Greek Chicken Salad,200,25.0,10.0,8.0,Weight loss,Protein-Rich Foods,No Restriction
+Tomato and Mozzarella Panini,300,14.0,25.0,15.0,General health,Dairy,No Restriction
+Baked Chicken Thighs,200,22.0,0.0,12.0,Weight loss,Protein-Rich Foods,No Restriction
+Iced Matcha Latte,50,1.0,10.0,1.0,General health,Beverages,Caffeine sensitive
+Turkey Club Salad,300,20.0,15.0,18.0,Weight loss,Protein-Rich Foods,No Restriction
+Vegetarian Margherita Pasta,250,10.0,30.0,8.0,General health,Vegetarian,No Restriction
+Quinoa and Vegetable Wrap,280,12.0,35.0,9.0,General health,Whole Grains,Vegetarian
+Iced Hibiscus Tea,5,0.0,1.0,0.0,General health,Beverages,Caffeine sensitive
+Coconut Water,45,0.5,11.0,0.0,General health,Beverages,No Restriction
+Caesar Chicken Wrap,320,25.0,20.0,15.0,Weight loss,Protein-Rich Foods,No Restriction
+Mushroom and Swiss Panini,280,12.0,25.0,14.0,General health,Dairy,No Restriction
+Grilled Tuna Steak,180,25.0,1.0,8.0,Weight loss,Seafood,No Restriction
+Iced Lemon Tea,10,0.0,3.0,0.0,General health,Beverages,Caffeine sensitive
+Chicken Avocado Salad,280,20.0,15.0,18.0,Weight loss,Protein-Rich Foods,No Restriction
+Vegetarian Margherita Sandwich,250,10.0,30.0,8.0,General health,Vegetarian,No Restriction
+Quinoa and Lentil Bowl,220,12.0,35.0,4.0,General health,Whole Grains,Vegetarian
+Iced Ginger Tea,5,0.0,1.0,0.0,General health,Beverages,Caffeine sensitive
+Olive Tapenade,80,1.0,5.0,6.0,General health,Fats,No Restriction
+Greek Chicken Gyro,300,25.0,15.0,15.0,Weight loss,Protein-Rich Foods,No Restriction
+Caprese Panini,280,12.0,25.0,14.0,General health,Dairy,No Restriction
+Roasted Turkey Breast,150,30.0,0.0,3.0,Weight loss,Protein-Rich Foods,No Restriction
+Iced Peach Tea,15,0.0,4.0,0.0,General health,Beverages,Caffeine sensitive
+Chicken Caesar Bowl,320,22.0,20.0,15.0,Weight loss,Protein-Rich Foods,No Restriction
+Margherita Flatbread Sandwich,250,10.0,30.0,8.0,General health,Vegetarian,No Restriction
+Quinoa and Chickpea Salad,220,8.0,35.0,5.0,General health,Whole Grains,Vegetarian
+Iced Lavender Tea,5,0.0,1.0,0.0,General health,Beverages,Caffeine sensitive
+Greek Chicken Wrap,300,25.0,15.0,12.0,Weight loss,Protein-Rich Foods,No Restriction
+Caprese Pasta Salad,280,12.0,25.0,14.0,General health,Dairy,No Restriction
+Baked Cod Fish,120,25.0,0.0,2.0,Weight loss,Seafood,No Restriction
+Iced Berry Tea,10,0.0,3.0,0.0,General health,Beverages,Caffeine sensitive
+Chicken Caesar Wrap,300,22.0,20.0,15.0,Weight loss,Protein-Rich Foods,No Restriction
+Quinoa and Vegetable Stir-Fry,220,8.0,35.0,5.0,General health,Whole Grains,Vegetarian
+Iced Peppermint Tea,5,0.0,1.0,0.0,General health,Beverages,Caffeine sensitive
+Chicken Caesar Salad,200,25.0,10.0,8.0,Weight loss,Protein-Rich Foods,No Restriction
+Chana Masala,150,7.0,25.0,5.0,General health,Vegetarian,No Restriction
+Masoor Dal,120,9.0,20.0,2.0,General health,Vegetarian,No Restriction
+Chicken Biryani,300,20.0,30.0,15.0,Weight loss,Protein-Rich Foods,No Restriction
+Vegetable Pulao,250,5.0,40.0,8.0,General health,Vegetarian,No Restriction
+Mango Lassi,150,5.0,30.0,2.0,General health,Beverages,No Restriction
+Palak Paneer,200,15.0,10.0,12.0,Weight loss,Vegetarian,No Restriction
+Tandoori Roti,100,3.0,15.0,2.0,General health,Whole Grains,Vegetarian
+Coconut Chutney,50,1.0,5.0,3.0,General health,Vegetarian,No Restriction
+Gulab Jamun,200,2.0,30.0,10.0,General health,Sweets,No Restriction
+Aloo Gobi,180,5.0,20.0,10.0,General health,Vegetarian,No Restriction
+Rice(Steamed),150,3.0,30.0,1.0,General health,Whole Grains,No Restriction
+Dal Tadka,120,8.0,15.0,5.0,General health,Vegetarian,No Restriction
+Roti,80,2.0,15.0,1.0,General health,Whole Grains,Vegetarian
+Aloo Paratha,250,5.0,30.0,12.0,General health,Vegetarian,No Restriction
+Paneer Bhurji,200,15.0,10.0,12.0,Weight loss,Vegetarian,No Restriction
+Cucumber Raita,50,2.0,6.0,2.0,General health,Vegetarian,No Restriction
+Chapati,70,2.0,12.0,1.0,General health,Whole Grains,Vegetarian
+Baingan Bharta,120,5.0,15.0,6.0,General health,Vegetarian,No Restriction
+Masala Chai,50,1.0,8.0,2.0,General health,Beverages,Caffeine sensitive
+Samosa,150,3.0,20.0,7.0,General health,Snacks,No Restriction
+Khichdi,200,6.0,30.0,5.0,General health,Vegetarian,No Restriction
+Bhindi Masala,120,3.0,15.0,7.0,General health,Vegetarian,No Restriction
+Poha,150,3.0,30.0,2.0,General health,Vegetarian,No Restriction
+Rajma Chawal,250,10.0,40.0,5.0,General health,Vegetarian,No Restriction
+Curd Rice,180,5.0,25.0,6.0,General health,Vegetarian,No Restriction
+Aloo Matar,160,4.0,20.0,8.0,General health,Vegetarian,No Restriction
+Jalebi,250,2.0,40.0,10.0,General health,Sweets,No Restriction
+Dosa,120,2.0,25.0,2.0,General health,Vegetarian,No Restriction
+Mango,60,1.0,15.0,0.3,General health,Fruits,No Restriction
+Lassi,100,3.0,15.0,3.0,General health,Beverages,No Restriction
+Chapati,80,2.0,15.0,1.0,General health,Whole Grains,Vegetarian
+Rajma,160,8.0,30.0,2.0,General health,Vegetarian,No Restriction
+Chicken Curry,250,20.0,10.0,15.0,Weight loss,Protein-Rich Foods,No Restriction
+Vegetable Biryani,300,7.0,40.0,10.0,General health,Vegetarian,No Restriction
+Butter Chicken,350,25.0,15.0,20.0,Weight loss,Protein-Rich Foods,No Restriction
+Paneer Tikka,200,15.0,10.0,12.0,Weight loss,Vegetarian,No Restriction
+Dal Fry,140,7.0,20.0,5.0,General health,Vegetarian,No Restriction
+Dhokla,120,5.0,25.0,2.0,General health,Vegetarian,No Restriction
+Chana Chaat,150,7.0,30.0,2.0,General health,Vegetarian,No Restriction
+Dhal Tadka,150,8.0,20.0,5.0,General health,Vegetarian,No Restriction
+Vegetable Pulao,200,5.0,35.0,5.0,General health,Vegetarian,No Restriction
+Lassi,80,3.0,10.0,2.0,General health,Beverages,No Restriction
+Papad,50,2.0,10.0,0.0,General health,Vegetarian,No Restriction
+Cabbage Sabzi,90,2.0,15.0,3.0,General health,Vegetarian,No Restriction
+Chicken Masala,280,20.0,15.0,18.0,Weight loss,Protein-Rich Foods,No Restriction
+Vegetable Biryani,250,5.0,40.0,8.0,General health,Vegetarian,No Restriction
+Aloo Paratha,300,5.0,30.0,15.0,General health,Vegetarian,No Restriction
+Chana Masala,200,10.0,25.0,5.0,General health,Vegetarian,No Restriction
+Dal Fry,150,8.0,20.0,5.0,General health,Vegetarian,No Restriction
+Curd,60,3.0,6.0,3.0,General health,Dairy,No Restriction
+Pav Bhaji,300,5.0,40.0,12.0,General health,Vegetarian,No Restriction
+Bhindi Masala,100,3.0,15.0,5.0,General health,Vegetarian,No Restriction
+Jeera Rice,150,3.0,30.0,2.0,General health,Vegetarian,No Restriction
+Aloo Gobi,150,5.0,20.0,8.0,General health,Vegetarian,No Restriction
+Butter Naan,200,5.0,30.0,6.0,General health,Whole Grains,Vegetarian
+Palak Dal,130,7.0,15.0,6.0,General health,Vegetarian,No Restriction
+Chole,180,10.0,25.0,5.0,General health,Vegetarian,No Restriction
+Mango Lassi,120,3.0,20.0,3.0,General health,Beverages,No Restriction
+Tandoori Chicken,300,25.0,0.0,15.0,Weight loss,Protein-Rich Foods,No Restriction
+Biryani,300,7.0,40.0,10.0,General health,Vegetarian,No Restriction
+Chana Masala,180,8.0,25.0,6.0,General health,Vegetarian,No Restriction
+Bhindi Fry,120,3.0,15.0,7.0,General health,Vegetarian,No Restriction
+Rice,100,2.0,20.0,0.5,General health,Whole Grains,Vegetarian
+Dal Makhani,200,10.0,20.0,10.0,General health,Vegetarian,No Restriction
+Aloo Jeera,150,3.0,25.0,5.0,General health,Vegetarian,No Restriction
+Paneer Tikka Masala,300,15.0,20.0,18.0,Weight loss,Vegetarian,No Restriction
+Sambhar,120,5.0,25.0,2.0,General health,Vegetarian,No Restriction
+Chicken Tikka,200,15.0,5.0,12.0,Weight loss,Protein-Rich Foods,No Restriction
+Upma,180,4.0,30.0,5.0,General health,Vegetarian,No Restriction
+Butter Roti,150,3.0,20.0,6.0,General health,Whole Grains,Vegetarian
+Kadhi Chawal,250,8.0,30.0,10.0,General health,Vegetarian,No Restriction
+Mango Shake,150,3.0,25.0,4.0,General health,Beverages,No Restriction
+Egg Curry,280,20.0,10.0,18.0,Weight loss,Protein-Rich Foods,No Restriction
+Idli Sambar,200,5.0,40.0,2.0,General health,Vegetarian,No Restriction
+Fish Curry,250,20.0,15.0,12.0,Weight loss,Protein-Rich Foods,No Restriction
+Cabbage Sabzi,100,2.0,15.0,5.0,General health,Vegetarian,No Restriction
+Lentil Soup (Dal),120,8.0,15.0,3.0,General health,Vegetarian,No Restriction
+Puri Bhaji,300,5.0,40.0,12.0,General health,Vegetarian,No Restriction
+Egg Bhurji,200,15.0,10.0,12.0,Weight loss,Protein-Rich Foods,No Restriction
+Methi Thepla,120,3.0,20.0,5.0,General health,Whole Grains,Vegetarian
+Tomato Rasam,80,2.0,15.0,1.0,General health,Vegetarian,No Restriction
+Poha,180,4.0,35.0,3.0,General health,Vegetarian,No Restriction
+Chicken Korma,280,20.0,10.0,15.0,Weight loss,Protein-Rich Foods,No Restriction
+Paneer Butter Masala,300,15.0,20.0,18.0,Weight loss,Vegetarian,No Restriction
+Masoor Dal,150,8.0,20.0,2.0,General health,Vegetarian,No Restriction
+Dhokla,150,5.0,30.0,2.0,General health,Vegetarian,No Restriction
+Chicken Kebab,200,18.0,2.0,12.0,Weight loss,Protein-Rich Foods,No Restriction
+Chana Chaat,120,7.0,20.0,2.0,General health,Vegetarian,No Restriction
+Rasam,50,1.0,10.0,1.0,General health,Vegetarian,No Restriction
+Aloo Baingan,120,3.0,20.0,5.0,General health,Vegetarian,No Restriction
+Puri,150,3.0,25.0,6.0,General health,Vegetarian,No Restriction
+Lemon Rice,200,4.0,40.0,5.0,General health,Vegetarian,No Restriction
+Tandoori Chicken,250,25.0,0.0,15.0,Weight loss,Protein-Rich Foods,No Restriction
+Vegetable Samosa,150,3.0,20.0,7.0,General health,Snacks,No Restriction
+Raita,80,4.0,8.0,4.0,General health,Vegetarian,No Restriction
+Aloo Tikki,100,2.0,15.0,5.0,General health,Snacks,No Restriction
+Masala Dosa,200,5.0,30.0,8.0,General health,Vegetarian,No Restriction
+Chicken Curry,250,20.0,15.0,12.0,Weight loss,Protein-Rich Foods,No Restriction
+Vegetable Upma,150,4.0,30.0,3.0,General health,Vegetarian,No Restriction
+Mango Lassi,150,3.0,25.0,4.0,General health,Beverages,No Restriction
+Sarson Da Saag,120,5.0,15.0,6.0,General health,Vegetarian,No Restriction
+Gulab Jamun,150,2.0,30.0,5.0,Indulgence,Sweets,No Restriction
+Aloo Matar,180,4.0,25.0,7.0,General health,Vegetarian,No Restriction
+Bhutte Ka Kees,200,5.0,30.0,8.0,General health,Vegetarian,No Restriction
+Jalebi,200,2.0,40.0,8.0,Indulgence,Sweets,No Restriction
+Papdi Chaat,250,5.0,30.0,10.0,General health,Snacks,No Restriction
+Raj Kachori,300,8.0,40.0,15.0,Indulgence,Snacks,No Restriction
+Samosa Chaat,200,5.0,25.0,10.0,General health,Snacks,No Restriction
+Gajar Ka Halwa,180,3.0,25.0,8.0,Indulgence,Sweets,No Restriction
+Aloo Methi,150,4.0,20.0,6.0,General health,Vegetarian,No Restriction
+Gobi Manchurian,250,5.0,30.0,12.0,Indulgence,Vegetarian,No Restriction
+Puliyodarai(Tamarind Rice),250,5.0,40.0,8.0,General health,Vegetarian,No Restriction
+Matar Pulao,200,5.0,35.0,6.0,General health,Vegetarian,No Restriction
+Chicken 65,300,15.0,10.0,20.0,Weight loss,Protein-Rich Foods,No Restriction
+Kheer,150,3.0,20.0,7.0,Indulgence,Sweets,No Restriction
+Palak Paneer,200,10.0,15.0,12.0,General health,Vegetarian,No Restriction
+Bhatura,250,5.0,30.0,10.0,Indulgence,Vegetarian,No Restriction
+Chole Bhature,300,8.0,40.0,12.0,General health,Vegetarian,No Restriction
+Mango Pickle,50,1.0,10.0,3.0,General health,Vegetarian,No Restriction
+Baingan Bharta,150,5.0,20.0,8.0,General health,Vegetarian,No Restriction
+Papaya Salad,80,1.0,20.0,0.5,General health,Vegetarian,No Restriction
+Paneer Tikka,200,15.0,10.0,10.0,General health,Vegetarian,No Restriction
+Lassi,120,3.0,15.0,6.0,General health,Beverages,No Restriction
+Rava Upma,180,5.0,35.0,4.0,General health,Vegetarian,No Restriction
+Palak Puri,200,4.0,30.0,6.0,General health,Vegetarian,No Restriction
+Chicken Saagwala,250,20.0,15.0,10.0,Weight loss,Protein-Rich Foods,No Restriction
+Vada Pav,300,5.0,40.0,12.0,Indulgence,Vegetarian,No Restriction
+Rajasthani Gatte Ki Sabzi,180,6.0,25.0,7.0,General health,Vegetarian,No Restriction
+Chicken Chettinad,300,25.0,10.0,15.0,Weight loss,Protein-Rich Foods,No Restriction
+Kadhi Pakora,150,5.0,15.0,7.0,General health,Vegetarian,No Restriction
+Malai Kofta,250,8.0,20.0,15.0,General health,Vegetarian,No Restriction
+Methi Thepla,150,4.0,25.0,4.0,General health,Whole Grains,Vegetarian
+Kofta Curry,250,10.0,15.0,18.0,General health,Vegetarian,No Restriction
+Gajar Halwa,200,3.0,30.0,8.0,Indulgence,Sweets,No Restriction
+Masala Papad,50,2.0,5.0,3.0,General health,Vegetarian,No Restriction
+Kachumber Salad,30,1.0,5.0,1.0,General health,Vegetarian,No Restriction
+Missi Roti,150,6.0,20.0,5.0,General health,Vegetarian,No Restriction
+Samosa,200,3.0,25.0,10.0,General health,Vegetarian,No Restriction
+Pani Puri,100,2.0,20.0,2.0,General health,Snacks,No Restriction
+Rasam,50,2.0,10.0,1.0,General health,Vegetarian,No Restriction
+Jhalmuri,120,3.0,25.0,2.0,General health,Snacks,No Restriction
+Dum Aloo,180,4.0,20.0,10.0,General health,Vegetarian,No Restriction
+Masala Chaas,40,2.0,5.0,1.0,General health,Beverages,No Restriction
+Palak Pakora,150,5.0,15.0,7.0,General health,Vegetarian,No Restriction
+Bisi Bele Bath,250,8.0,40.0,5.0,General health,Vegetarian,No Restriction
+Aloo Jeera,120,3.0,20.0,5.0,General health,Vegetarian,No Restriction
+Dal Makhani,250,10.0,25.0,12.0,General health,Vegetarian,No Restriction
+Pesarattu (Green Gram Dosa),180,6.0,25.0,5.0,General health,Vegetarian,No Restriction
+Baingan Bhaja,100,2.0,15.0,4.0,General health,Vegetarian,No Restriction
+Malabar Parotta,200,4.0,25.0,10.0,General health,Whole Grains,Vegetarian
+Mutton Biryani,350,25.0,30.0,18.0,Weight loss,Protein-Rich Foods,No Restriction
+Soya Chaap,180,15.0,10.0,8.0,Weight loss,Protein-Rich Foods,No Restriction
+Kokum Sharbat,80,1.0,20.0,0.0,General health,Beverages,No Restriction
+Paneer Bhurji,150,10.0,5.0,12.0,General health,Vegetarian,No Restriction
+Keema Samosa,200,6.0,20.0,10.0,General health,Snacks,No Restriction
+Chapati,100,3.0,20.0,1.0,General health,Whole Grains,Vegetarian
+Mutton Rogan Josh,300,20.0,15.0,18.0,Weight loss,Protein-Rich Foods,No Restriction
+Rajma Masala,180,8.0,25.0,6.0,General health,Vegetarian,No Restriction
+Tandoori Naan,150,5.0,20.0,4.0,General health,Whole Grains,Vegetarian
+Chicken Tikka,200,18.0,3.0,12.0,Weight loss,Protein-Rich Foods,No Restriction
+Methi Paratha,150,4.0,20.0,5.0,General health,Vegetarian,No Restriction
+Mango Chutney,80,1.0,20.0,0.5,General health,Vegetarian,No Restriction
+Rava Kesari,200,3.0,40.0,5.0,Indulgence,Sweets,No Restriction
+Guava,68,2.6,14.0,0.9,General health,Fruits,No Restriction
+Papaya,59,0.5,15.0,0.4,General health,Fruits,No Restriction
+Pomegranate,83,1.7,18.7,1.2,General health,Fruits,No Restriction
+Apple,52,0.3,14.0,0.2,General health,Fruits,No Restriction
+Orange,43,1.0,8.3,0.2,General health,Fruits,No Restriction
+Kiwi,61,1.1,14.6,0.5,General health,Fruits,No Restriction
+Sitaphal(Custard Apple),94,2.1,23.6,0.5,General health,Fruits,No Restriction
+Jamun,60,0.9,14.0,0.3,General health,Fruits,No Restriction
+Sapota(Chikoo),83,0.9,19.0,0.5,General health,Fruits,No Restriction
+Jackfruit,95,2.5,24.0,0.3,General health,Fruits,No Restriction
+Papaya Salad,80,1.0,20.0,0.5,General health,Fruits,No Restriction
+Strawberry,32,0.7,7.7,0.3,General health,Fruits,No Restriction
+Chikoo Milkshake,120,2.0,28.0,1.0,General health,Beverages,No Restriction
+Banana Smoothie,120,2.0,30.0,1.0,General health,Beverages,No Restriction
+Kokum Sherbet,50,0.5,12.0,0.0,General health,Beverages,No Restriction
+Fig (Anjeer),74,0.8,19.0,0.3,General health,Fruits,No Restriction
+Dates,282,2.5,75.0,0.4,General health,Fruits,No Restriction
+Custard Apple Milkshake,150,2.0,30.0,2.0,General health,Beverages,No Restriction
+Mango Chaat,100,1.0,25.0,0.5,General health,Fruits,No Restriction
+Pomegranate Raita,90,3.0,12.0,4.0,General health,Vegetarian,No Restriction
+Mango Sorbet,120,1.0,30.0,0.0,General health,Fruits,No Restriction
+Lychee,66,0.8,17.0,0.4,General health,Fruits,No Restriction
+Kesar Pista Milk,150,5.0,15.0,7.0,General health,Beverages,No Restriction
+Papaya Smoothie,120,2.0,30.0,0.5,General health,Fruits,No Restriction
+Guava Chaat,80,2.0,20.0,0.5,General health,Fruits,No Restriction
+Kokum Panna,60,0.5,15.0,0.0,General health,Beverages,No Restriction
+Kokum Jelly,100,0.5,25.0,0.2,General health,Fruits,No Restriction
+Kiwi Salad,70,1.5,15.0,1.0,General health,Fruits,No Restriction
+Mango Lollipop,40,0.5,10.0,0.0,General health,Fruits,No Restriction
+Jamun Juice,50,1.0,12.0,0.0,General health,Beverages,No Restriction
+Lychee Sarbat,120,1.0,30.0,0.5,General health,Fruits,No Restriction
+Masala Chai,50,1.0,10.0,1.0,General health,Beverages,No Restriction
+Buttermilk,30,2.0,4.0,1.0,General health,Beverages,No Restriction
+Thandai,100,2.0,20.0,3.0,General health,Beverages,No Restriction
+Aam Panna,70,1.0,18.0,0.5,General health,Beverages,No Restriction
+Jaljeera,40,1.0,10.0,0.5,General health,Beverages,No Restriction
+Kokum Sharbat,60,0.5,15.0,0.0,General health,Beverages,No Restriction
+Mango Juice (Packaged),120,1.0,30.0,0.5,General health,Beverages,No Restriction
+Lemonade,30,0.5,8.0,0.0,General health,Beverages,No Restriction
+Iced Tea (Packaged),70,0.0,18.0,0.0,General health,Beverages,No Restriction
+Coconut Water,46,0.9,8.9,0.2,General health,Beverages,No Restriction
+Rose Sherbet,80,0.5,20.0,0.0,General health,Beverages,No Restriction
+Chaas (Spiced Buttermilk),25,2.0,3.0,1.0,General health,Beverages,No Restriction
+Kesar Badam Milk,120,5.0,15.0,6.0,General health,Beverages,No Restriction
+Ginger Tea,30,1.0,5.0,1.0,General health,Beverages,No Restriction
+Bel (Wood Apple) Sharbat,70,0.5,18.0,0.3,General health,Beverages,No Restriction
+Guava Juice (Packaged),100,1.0,25.0,0.5,General health,Beverages,No Restriction
+Sattu Drink,60,5.0,10.0,1.0,General health,Beverages,No Restriction
+Nimbu Pani,40,0.5,10.0,0.0,General health,Beverages,No Restriction
+Mango Lassi (Packaged),150,2.0,30.0,2.0,General health,Beverages,No Restriction
+Kokum Solkadhi,50,1.0,12.0,0.5,General health,Beverages,No Restriction
+Aam Ras (Packaged),120,1.0,30.0,0.5,General health,Beverages,No Restriction
+Jaljeera Soda (Packaged),90,0.5,22.0,0.0,General health,Beverages,No Restriction
+Kokum Juice (Packaged),80,0.5,20.0,0.2,General health,Beverages,No Restriction
+Masala Lemonade (Packaged),70,0.5,18.0,0.0,General health,Beverages,No Restriction
+Thums Up (Indian Cola),150,0.0,38.0,0.0,General health,Beverages,No Restriction
+Pepsi (Packaged),140,0.0,37.0,0.0,General health,Beverages,No Restriction
+Limca (Lemon-Lime Soda),110,0.0,28.0,0.0,General health,Beverages,No Restriction
+Sprite (Packaged),130,0.0,34.0,0.0,General health,Beverages,No Restriction
+Frooti (Mango Drink),100,0.0,25.0,0.0,General health,Beverages,No Restriction
+Maaza (Mango Drink),120,0.0,30.0,0.0,General health,Beverages,No Restriction
+Rooh Afza Sharbat (Concentrate),70,0.0,18.0,0.0,General health,Beverages,No Restriction
+Paper Boat Aamras (Packaged),120,1.0,30.0,0.5,General health,Beverages,No Restriction
+Lassi (Packaged),100,2.0,15.0,4.0,General health,Beverages,No Restriction
+Tzinga Energy Drink,120,0.0,30.0,0.0,General health,Beverages,No Restriction
+Bovonto (Indian Cola),150,0.0,38.0,0.0,General health,Beverages,No Restriction
+Appy Fizz (Apple Drink),90,0.0,22.0,0.0,General health,Beverages,No Restriction
+Mirinda (Orange Drink),120,0.0,30.0,0.0,General health,Beverages,No Restriction
+Boroline (Packaged),10,0.0,2.0,0.0,General health,,No Restriction
+Rooh Afza Lemonade (Packaged),80,0.0,20.0,0.0,General health,Beverages,No Restriction
+Rasna (Fruit Drink Mix),60,0.0,15.0,0.0,General health,Beverages,No Restriction
+Kala Khatta (Packaged),70,0.0,18.0,0.0,General health,Beverages,No Restriction
+Sosyo (Indian Cola),120,0.0,30.0,0.0,General health,Beverages,No Restriction
+Coca-Cola (Packaged),140,0.0,39.0,0.0,General health,Beverages,No Restriction
+Thums Up (Packaged),150,0.0,38.0,0.0,General health,Beverages,No Restriction
+7UP (Packaged),140,0.0,36.0,0.0,General health,Beverages,No Restriction
+Mountain Dew (Packaged),170,0.0,46.0,0.0,General health,Beverages,No Restriction
+Appy Classic (Apple Drink),80,0.0,20.0,0.0,General health,Beverages,No Restriction
+Taj Mahal Tea (Packaged),5,0.0,1.0,0.0,General health,Beverages,No Restriction
+Kissan Mixed Fruit Jam (Packaged),50,0.0,13.0,0.0,General health,Condiments,No Restriction
+Bru Instant Coffee (Packaged),2,0.0,0.0,0.0,General health,Beverages,No Restriction
+Real Fruit Power (Packaged),60,0.0,15.0,0.0,General health,Beverages,No Restriction
+Bournvita (Malt Drink Mix),80,2.0,15.0,1.0,General health,Beverages,No Restriction
+Horlicks (Malt Drink Mix),100,3.0,15.0,2.0,General health,Beverages,No Restriction
+Pani Puri (Golgappa),10,0.5,2.0,0.0,Indulgence,Street Food,No Restriction
+Bhel Puri,150,3.0,30.0,5.0,Indulgence,Street Food,No Restriction
+Vada Pav,300,5.0,45.0,12.0,Indulgence,Street Food,No Restriction
+Samosa,120,2.0,15.0,6.0,Indulgence,Street Food,No Restriction
+Paneer Tikka,200,10.0,15.0,12.0,Indulgence,Indian,No Restriction
+Kachori,250,3.0,20.0,16.0,Indulgence,Street Food,No Restriction
+Chole Bhature,500,10.0,60.0,20.0,Indulgence,Indian,No Restriction
+Pav Bhaji,350,5.0,50.0,15.0,Indulgence,Street Food,No Restriction
+Dahi Puri,120,3.0,20.0,4.0,Indulgence,Street Food,No Restriction
+Aloo Tikki,100,2.0,15.0,4.0,Indulgence,Street Food,No Restriction
+Dosa with Coconut Chutney,250,5.0,50.0,2.0,Indulgence,South Indian,No Restriction
+Kathi Roll (Paneer),300,10.0,25.0,15.0,Indulgence,Indian,No Restriction
+Pav Bhaji Pizza,400,8.0,45.0,20.0,Indulgence,Fusion,No Restriction
+Chicken Biryani,500,20.0,60.0,20.0,Indulgence,Indian,No Restriction
+Chole Kulche,350,10.0,60.0,5.0,Indulgence,North Indian,No Restriction
+Idli Sambhar,200,4.0,40.0,1.0,Indulgence,South Indian,No Restriction
+Momos with Spicy Sauce,150,5.0,20.0,5.0,Indulgence,Tibetan,No Restriction
+Jalebi,250,1.0,60.0,10.0,Indulgence,Indian,No Restriction
+Aloo Chaat,180,3.0,25.0,8.0,Indulgence,Street Food,No Restriction
+Bread Pakora,200,5.0,20.0,12.0,Indulgence,Indian,No Restriction
+Veg Hakka Noodles,300,8.0,45.0,10.0,Indulgence,Indo-Chinese,No Restriction
+Chicken Seekh Kebab,180,15.0,5.0,12.0,Indulgence,Indian,No Restriction
+Papdi Chaat,200,4.0,25.0,10.0,Indulgence,Street Food,No Restriction
+Raj Kachori,350,6.0,40.0,18.0,Indulgence,Street Food,No Restriction
+Kadai Paneer,250,12.0,15.0,18.0,Indulgence,Indian,No Restriction
+Aloo Paratha,350,8.0,50.0,15.0,Indulgence,North Indian,No Restriction
+Dabeli,300,5.0,40.0,12.0,Indulgence,Street Food,No Restriction
+Paneer Pakora,180,10.0,15.0,12.0,Indulgence,Indian,No Restriction
+Egg Roll,250,12.0,20.0,15.0,Indulgence,Indian,No Restriction
+Vada Pav,200,4.0,25.0,10.0,Indulgence,Street Food,No Restriction
+Schezwan Dosa,280,6.0,40.0,10.0,Indulgence,Indo-Chinese,No Restriction
+Ragda Pattice,350,8.0,55.0,12.0,Indulgence,Street Food,No Restriction
+Chana Chaat,180,5.0,30.0,5.0,Indulgence,Street Food,No Restriction
+Mutton Biryani,550,25.0,60.0,25.0,Indulgence,Indian,No Restriction
+Paneer Tikka Pizza,400,12.0,35.0,18.0,Indulgence,Fusion,No Restriction
+Bhutte Ka Kees,200,5.0,30.0,8.0,Indulgence,Indian,No Restriction
+Kalmi Kebab,220,18.0,10.0,15.0,Indulgence,Indian,No Restriction
+Chole Bhature,450,12.0,60.0,20.0,Indulgence,North Indian,No Restriction
+Baida Roti,300,15.0,20.0,18.0,Indulgence,Indian,No Restriction
+Dhokla,120,5.0,20.0,2.0,Indulgence,Gujarati,No Restriction
+Mutton Roll,300,15.0,25.0,15.0,Indulgence,Indian,No Restriction
+Bhurji Pav,250,10.0,15.0,18.0,Indulgence,Indian,No Restriction
+Methi Thepla,200,5.0,30.0,8.0,Indulgence,Gujarati,No Restriction
+Keema Samosa,180,8.0,15.0,10.0,Indulgence,Indian,No Restriction
+Fish Curry Rice,400,20.0,40.0,15.0,Indulgence,Seafood,No Restriction
+Kadai Chicken,300,18.0,12.0,20.0,Indulgence,Indian,No Restriction
+Mysore Pak,200,5.0,30.0,10.0,Indulgence,Sweets,No Restriction
+Butter Chicken,450,20.0,25.0,30.0,Indulgence,Indian,No Restriction
+Palak Chaat,180,5.0,25.0,8.0,Indulgence,Street Food,No Restriction
+Tandoori Momos,250,12.0,20.0,12.0,Indulgence,Tibetan,No Restriction
+Chole Samosa Chaat,250,7.0,40.0,8.0,Indulgence,Street Food,No Restriction
+Achari Paneer Tikka,180,12.0,10.0,14.0,Indulgence,Indian,No Restriction
+Misal Pav,300,10.0,45.0,12.0,Indulgence,Street Food,No Restriction
+Chicken Korma,350,15.0,20.0,25.0,Indulgence,Indian,No Restriction
+Dahi Ke Kebab,200,8.0,15.0,12.0,Indulgence,Indian,No Restriction
+Bread Upma,220,6.0,30.0,8.0,Indulgence,Indian,No Restriction
+Pav Bhaji Cones,180,5.0,25.0,10.0,Indulgence,Street Food,No Restriction
+Rajma Chawal Cutlet,150,6.0,20.0,6.0,Indulgence,North Indian,No Restriction
+Cheese Burst Pizza,400,15.0,40.0,20.0,Indulgence,Fusion,No Restriction
+Paneer Chilli Dosa,300,10.0,25.0,15.0,Indulgence,Indo-Chinese,No Restriction
+Aloo Tikki Burger,300,8.0,45.0,12.0,Indulgence,Street Food,No Restriction
+Fish Tikka Wrap,250,15.0,20.0,15.0,Indulgence,Seafood,No Restriction
+Papad Chaat,180,3.0,20.0,10.0,Indulgence,Street Food,No Restriction
+Mughlai Paratha,350,10.0,50.0,15.0,Indulgence,North Indian,No Restriction
+Veg Momos,120,5.0,15.0,6.0,Indulgence,Tibetan,No Restriction
+Chilli Cheese Toast,200,8.0,20.0,10.0,Indulgence,Indian,No Restriction
+Chicken Kathi Roll,300,15.0,25.0,18.0,Indulgence,Indian,No Restriction
+Pav Bhaji Fondue,350,8.0,50.0,15.0,Indulgence,Fusion,No Restriction
+Poha Cutlet,180,5.0,25.0,8.0,Indulgence,Indian,No Restriction
+Dal Baati Churma,400,15.0,40.0,20.0,Indulgence,Rajasthani,No Restriction
+Masala Dosa,320,10.0,40.0,15.0,Indulgence,Indo-Chinese,No Restriction
+Achari Chicken Roll,280,15.0,20.0,18.0,Indulgence,Indian,No Restriction
+Bhindi Kurkure,180,4.0,25.0,8.0,Indulgence,Indian,No Restriction
+Chapati Noodles,250,6.0,30.0,12.0,Indulgence,Indo-Chinese,No Restriction
+Bread Pakora Burger,300,8.0,40.0,12.0,Indulgence,Street Food,No Restriction
+Kheema Pav,350,18.0,20.0,25.0,Indulgence,Indian,No Restriction
+Maggi Pakora,200,5.0,25.0,10.0,Indulgence,Street Food,No Restriction
+Palak Corn Sandwich,180,8.0,20.0,8.0,Indulgence,Indian,No Restriction
+Vegetarian Momos,150,6.0,15.0,8.0,Indulgence,Tibetan,No Restriction
+Gulab Jamun Shake,250,5.0,30.0,10.0,Indulgence,Sweets,No Restriction
+Paneer Frankie,300,12.0,25.0,15.0,Indulgence,Indian,No Restriction
+Aloo Bonda,180,5.0,20.0,10.0,Indulgence,Indian,No Restriction
+Chilli Paneer Pizza,400,15.0,35.0,20.0,Indulgence,Fusion,No Restriction
+Dhokla Sandwich,250,7.0,30.0,10.0,Indulgence,Gujarati,No Restriction
+Mutton Kebab Roll,350,20.0,15.0,25.0,Indulgence,Indian,No Restriction
+Rajma Pizza,300,10.0,40.0,12.0,Indulgence,Indian,No Restriction
+Veg Hakka Noodles Wrap,280,8.0,35.0,12.0,Indulgence,Indo-Chinese,No Restriction
+Cheese Pav Bhaji,350,10.0,45.0,15.0,Indulgence,Street Food,No Restriction
+Chicken 65 Burger,320,18.0,20.0,20.0,Indulgence,Indian,No Restriction
+Peanut Masala Chaat,200,8.0,15.0,12.0,Indulgence,Street Food,No Restriction
+Chicken Tikka Biryani,500,25.0,60.0,20.0,Indulgence,Indian,No Restriction
+Mushroom Manchurian Roll,300,10.0,25.0,18.0,Indulgence,Indo-Chinese,No Restriction
+Gobi 65,250,8.0,30.0,12.0,Indulgence,Indian,No Restriction
+Samosa Chaat Salad,200,5.0,25.0,10.0,Indulgence,Street Food,No Restriction
+Kadai Veg Noodles,280,6.0,40.0,10.0,Indulgence,Indo-Chinese,No Restriction
+Masala Dosa Wrap,350,8.0,45.0,15.0,Indulgence,South Indian,No Restriction
+Punjabi Chole Burrito,300,10.0,35.0,12.0,Indulgence,North Indian,No Restriction
+Pav Bhaji Tostada,380,10.0,50.0,18.0,Indulgence,Fusion,No Restriction
+Aloo Gobi Quesadilla,320,8.0,35.0,15.0,Indulgence,Indian,No Restriction
+Chicken Keema Naanwich,400,20.0,30.0,22.0,Indulgence,Indian,No Restriction
+Dahi Puri,180,5.0,20.0,10.0,Indulgence,Street Food,No Restriction
+Veggie Pizza Dosa,320,10.0,35.0,15.0,Indulgence,South Indian,No Restriction
+Paneer Tikka Nachos,280,12.0,20.0,18.0,Indulgence,Indian,No Restriction
+Aloo Tikki Pizza,350,10.0,45.0,12.0,Indulgence,Street Food,No Restriction
+Chana Chaat Wrap,250,8.0,30.0,10.0,Indulgence,Street Food,No Restriction
+Pav Bhaji Tacos,300,8.0,40.0,15.0,Indulgence,Street Food,No Restriction
+Chicken 65 Quesadilla,380,18.0,30.0,22.0,Indulgence,Indian,No Restriction
+Vada Pav Sliders,320,10.0,35.0,15.0,Indulgence,Street Food,No Restriction
+Bhel Puri Salad,200,5.0,25.0,10.0,Indulgence,Street Food,No Restriction
+Masala Maggi Waffles,250,6.0,30.0,12.0,Indulgence,Indian,No Restriction
+Gulab Jamun,150,2.0,20.0,8.0,Indulgence,Sweets,No Restriction
+Jalebi,200,1.0,30.0,10.0,Indulgence,Sweets,No Restriction
+Rasgulla,100,2.0,25.0,1.0,Indulgence,Sweets,No Restriction
+Kaju Katli,180,4.0,15.0,12.0,Indulgence,Sweets,No Restriction
+Mysore Pak,250,5.0,30.0,15.0,Indulgence,Sweets,No Restriction
+Rasmalai,180,5.0,20.0,10.0,Indulgence,Sweets,No Restriction
+Barfi,120,3.0,15.0,8.0,Indulgence,Sweets,No Restriction
+Sandesh,100,2.0,18.0,5.0,Indulgence,Sweets,No Restriction
+Besan Ladoo,160,3.0,20.0,8.0,Indulgence,Sweets,No Restriction
+Peda,140,2.0,25.0,6.0,Indulgence,Sweets,No Restriction
+Rabri,180,4.0,25.0,10.0,Indulgence,Sweets,No Restriction
+Kalaadi,160,8.0,10.0,12.0,Indulgence,Indian,No Restriction
+Kesar Peda,200,3.0,30.0,8.0,Indulgence,Sweets,No Restriction
+Coconut Ladoo,150,2.0,20.0,8.0,Indulgence,Sweets,No Restriction
+Cham Cham,180,2.0,30.0,10.0,Indulgence,Sweets,No Restriction
+Shrikhand,120,5.0,15.0,6.0,Indulgence,Sweets,No Restriction
+Balushahi,220,3.0,25.0,12.0,Indulgence,Sweets,No Restriction
+Kaju Anjeer Roll,250,6.0,20.0,15.0,Indulgence,Sweets,No Restriction
+Gajar Halwa,200,3.0,25.0,10.0,Indulgence,Sweets,No Restriction
+Chhena Poda,180,4.0,20.0,8.0,Indulgence,Sweets,No Restriction
+Modak,120,2.0,25.0,5.0,Indulgence,Sweets,No Restriction
+Malpua,180,3.0,30.0,10.0,Indulgence,Sweets,No Restriction
+Petha,150,1.0,35.0,5.0,Indulgence,Sweets,No Restriction
+Ragi Ladoo,160,4.0,20.0,8.0,Indulgence,Sweets,No Restriction
+Kaju Roll,200,5.0,15.0,12.0,Indulgence,Sweets,No Restriction
+Gond Ke Ladoo,220,3.0,25.0,10.0,Indulgence,Sweets,No Restriction
+Ghevar,250,4.0,30.0,15.0,Indulgence,Sweets,No Restriction
+Basundi,180,5.0,20.0,8.0,Indulgence,Sweets,No Restriction
+Puran Poli,200,3.0,25.0,10.0,Indulgence,Sweets,No Restriction
+Chana Dal Halwa,220,4.0,30.0,12.0,Indulgence,Sweets,No Restriction
+Kalakand,180,6.0,20.0,10.0,Indulgence,Sweets,No Restriction
+Mawa Kachori,250,5.0,30.0,12.0,Indulgence,Sweets,No Restriction
+Raj Bhog,220,3.0,25.0,12.0,Indulgence,Sweets,No Restriction
+Gulab Jamun Cheesecake,300,8.0,35.0,15.0,Indulgence,Sweets,No Restriction
+Kaju Malai Peda,200,4.0,25.0,10.0,Indulgence,Sweets,No Restriction
+Cham Cham Cupcakes,180,3.0,20.0,8.0,Indulgence,Sweets,No Restriction
+Mysore Pak Ice Cream,250,5.0,30.0,12.0,Indulgence,Sweets,No Restriction
+Gajar Ki Kheer,150,3.0,20.0,6.0,Indulgence,Sweets,No Restriction
+Malai Sandwich,200,4.0,25.0,8.0,Indulgence,Sweets,No Restriction
+Gond Ke Ladoo,220,5.0,30.0,10.0,Indulgence,Sweets,No Restriction
