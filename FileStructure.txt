@@ -1,0 +1,25 @@
+MEDICAL_WEBSITE
+│
+├── backend
+│   ├── node_modules
+│   ├── python
+│   │   ├── ai_services.py
+│   │   ├── chat_bot.py
+│   │   ├── mental_bot.py
+│   │   ├── wiki_search.py
+│   ├── index.js
+│   ├── package-lock.json
+│   ├── package.json
+│
+├── frontend
+│   ├── node_modules
+│   ├── public
+│   ├── src
+│   ├── .gitignore
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   ├── vite.config.js
+│   ├── FileStructure.txt
