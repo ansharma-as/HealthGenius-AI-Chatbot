@@ -3,5 +3,8 @@ node_modules
 
 main2.py
 
-venv
+v1/
+  main.py
+  .env
+    
 
