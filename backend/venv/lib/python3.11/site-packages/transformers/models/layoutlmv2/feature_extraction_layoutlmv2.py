@@ -33,6 +33,3 @@ class LayoutLMv2FeatureExtractor(LayoutLMv2ImageProcessor):
             FutureWarning,
         )
         super().__init__(*args, **kwargs)
-
-
-__all__ = ["LayoutLMv2FeatureExtractor"]

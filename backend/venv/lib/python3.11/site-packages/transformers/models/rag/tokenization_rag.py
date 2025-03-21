@@ -13,7 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 """Tokenization classes for RAG."""
-
 import os
 import warnings
 from typing import List, Optional
@@ -119,6 +118,3 @@ class RagTokenizer:
         )
         model_inputs["labels"] = labels["input_ids"]
         return model_inputs
-
-
-__all__ = ["RagTokenizer"]

@@ -716,6 +716,3 @@ append_call_sample_docstring(
     FlaxCausalLMOutput,
     _CONFIG_FOR_DOC,
 )
-
-
-__all__ = ["FlaxGPTJForCausalLM", "FlaxGPTJModel", "FlaxGPTJPreTrainedModel"]

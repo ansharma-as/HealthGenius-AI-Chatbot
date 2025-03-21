@@ -12,7 +12,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-"""PyTorch FocalNet model."""
+""" PyTorch FocalNet model."""
+
 
 import collections.abc
 import math
@@ -51,6 +52,12 @@ _EXPECTED_OUTPUT_SHAPE = [1, 49, 768]
 # Image classification docstring
 _IMAGE_CLASS_CHECKPOINT = "microsoft/focalnet-tiny"
 _IMAGE_CLASS_EXPECTED_OUTPUT = "tabby, tabby cat"
+
+
+FOCALNET_PRETRAINED_MODEL_ARCHIVE_LIST = [
+    "microsoft/focalnet-tiny",
+    # See all FocalNet models at https://huggingface.co/models?filter=focalnet
+]
 
 
 @dataclass
@@ -358,23 +365,23 @@ class FocalNetModulation(nn.Module):
 
         # pre linear projection
         x = self.projection_in(hidden_state).permute(0, 3, 1, 2).contiguous()
-        q, ctx, gates = torch.split(x, (num_channels, num_channels, self.focal_level + 1), 1)
+        q, ctx, self.gates = torch.split(x, (num_channels, num_channels, self.focal_level + 1), 1)
 
         # context aggreation
         ctx_all = 0
         for level in range(self.focal_level):
             ctx = self.focal_layers[level](ctx)
-            ctx_all = ctx_all + ctx * gates[:, level : level + 1]
+            ctx_all = ctx_all + ctx * self.gates[:, level : level + 1]
         ctx_global = self.activation(ctx.mean(2, keepdim=True).mean(3, keepdim=True))
-        ctx_all = ctx_all + ctx_global * gates[:, self.focal_level :]
+        ctx_all = ctx_all + ctx_global * self.gates[:, self.focal_level :]
 
         # normalize context
         if self.normalize_modulator:
             ctx_all = ctx_all / (self.focal_level + 1)
 
         # focal modulation
-        modulator = self.projection_context(ctx_all)
-        x_out = q * modulator
+        self.modulator = self.projection_context(ctx_all)
+        x_out = q * self.modulator
         x_out = x_out.permute(0, 2, 3, 1).contiguous()
         if self.use_post_layernorm_in_modulation:
             x_out = self.layernorm(x_out)
@@ -632,7 +639,6 @@ class FocalNetPreTrainedModel(PreTrainedModel):
     base_model_prefix = "focalnet"
     main_input_name = "pixel_values"
     supports_gradient_checkpointing = True
-    _no_split_modules = ["FocalNetStage"]
 
     def _init_weights(self, module):
         """Initialize the weights"""
@@ -1027,12 +1033,3 @@ class FocalNetBackbone(FocalNetPreTrainedModel, BackboneMixin):
             hidden_states=outputs.hidden_states if output_hidden_states else None,
             attentions=None,
         )
-
-
-__all__ = [
-    "FocalNetForImageClassification",
-    "FocalNetForMaskedImageModeling",
-    "FocalNetBackbone",
-    "FocalNetModel",
-    "FocalNetPreTrainedModel",
-]

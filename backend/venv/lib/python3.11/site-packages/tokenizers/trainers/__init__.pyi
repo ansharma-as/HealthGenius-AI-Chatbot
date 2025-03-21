@@ -80,6 +80,7 @@ class UnigramTrainer(Trainer):
             The number of iterations of the EM algorithm to perform before
             pruning the vocabulary.
     """
+
     def __init__(
         self,
         vocab_size=8000,
@@ -142,6 +143,7 @@ class WordPieceTrainer(Trainer):
         end_of_word_suffix (:obj:`str`, `optional`):
             A suffix to be used for every subword that is a end-of-word.
     """
+
     def __init__(
         self,
         vocab_size=30000,

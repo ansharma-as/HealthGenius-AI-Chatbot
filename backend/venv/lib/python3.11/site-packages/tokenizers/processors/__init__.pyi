@@ -6,6 +6,7 @@ class PostProcessor:
     This class is not supposed to be instantiated directly. Instead, any implementation of
     a PostProcessor will return an instance of this class when instantiated.
     """
+
     def num_special_tokens_to_add(self, is_pair):
         """
         Return the number of special tokens that would be added for single/pair sentences.
@@ -18,7 +19,6 @@ class PostProcessor:
             :obj:`int`: The number of tokens to add
         """
         pass
-
     def process(self, encoding, pair=None, add_special_tokens=True):
         """
         Post-process the given encodings, generating the final one
@@ -53,9 +53,9 @@ class BertProcessing(PostProcessor):
         cls (:obj:`Tuple[str, int]`):
             A tuple with the string representation of the CLS token, and its id
     """
+
     def __init__(self, sep, cls):
         pass
-
     def num_special_tokens_to_add(self, is_pair):
         """
         Return the number of special tokens that would be added for single/pair sentences.
@@ -68,7 +68,6 @@ class BertProcessing(PostProcessor):
             :obj:`int`: The number of tokens to add
         """
         pass
-
     def process(self, encoding, pair=None, add_special_tokens=True):
         """
         Post-process the given encodings, generating the final one
@@ -99,9 +98,9 @@ class ByteLevel(PostProcessor):
         trim_offsets (:obj:`bool`):
             Whether to trim the whitespaces from the produced offsets.
     """
+
     def __init__(self, trim_offsets=True):
         pass
-
     def num_special_tokens_to_add(self, is_pair):
         """
         Return the number of special tokens that would be added for single/pair sentences.
@@ -114,7 +113,6 @@ class ByteLevel(PostProcessor):
             :obj:`int`: The number of tokens to add
         """
         pass
-
     def process(self, encoding, pair=None, add_special_tokens=True):
         """
         Post-process the given encodings, generating the final one
@@ -161,9 +159,9 @@ class RobertaProcessing(PostProcessor):
             Whether the add_prefix_space option was enabled during pre-tokenization. This
             is relevant because it defines the way the offsets are trimmed out.
     """
+
     def __init__(self, sep, cls, trim_offsets=True, add_prefix_space=True):
         pass
-
     def num_special_tokens_to_add(self, is_pair):
         """
         Return the number of special tokens that would be added for single/pair sentences.
@@ -176,7 +174,6 @@ class RobertaProcessing(PostProcessor):
             :obj:`int`: The number of tokens to add
         """
         pass
-
     def process(self, encoding, pair=None, add_special_tokens=True):
         """
         Post-process the given encodings, generating the final one
@@ -204,9 +201,9 @@ class Sequence(PostProcessor):
         processors (:obj:`List[PostProcessor]`)
             The processors that need to be chained
     """
+
     def __init__(self, processors):
         pass
-
     def num_special_tokens_to_add(self, is_pair):
         """
         Return the number of special tokens that would be added for single/pair sentences.
@@ -219,7 +216,6 @@ class Sequence(PostProcessor):
             :obj:`int`: The number of tokens to add
         """
         pass
-
     def process(self, encoding, pair=None, add_special_tokens=True):
         """
         Post-process the given encodings, generating the final one
@@ -306,9 +302,9 @@ class TemplateProcessing(PostProcessor):
              The given dict expects the provided :obj:`ids` and :obj:`tokens` lists to have
              the same length.
     """
+
     def __init__(self, single, pair, special_tokens):
         pass
-
     def num_special_tokens_to_add(self, is_pair):
         """
         Return the number of special tokens that would be added for single/pair sentences.
@@ -321,7 +317,6 @@ class TemplateProcessing(PostProcessor):
             :obj:`int`: The number of tokens to add
         """
         pass
-
     def process(self, encoding, pair=None, add_special_tokens=True):
         """
         Post-process the given encodings, generating the final one

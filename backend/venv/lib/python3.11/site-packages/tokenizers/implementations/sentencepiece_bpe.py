@@ -32,9 +32,8 @@ class SentencePieceBPETokenizer(BaseTokenizer):
             tokenizer.add_special_tokens([str(unk_token)])
 
         tokenizer.normalizer = NFKC()
-        prepend_scheme = "always" if add_prefix_space else "never"
-        tokenizer.pre_tokenizer = pre_tokenizers.Metaspace(replacement=replacement, prepend_scheme=prepend_scheme)
-        tokenizer.decoder = decoders.Metaspace(replacement=replacement, prepend_scheme=prepend_scheme)
+        tokenizer.pre_tokenizer = pre_tokenizers.Metaspace(replacement=replacement, add_prefix_space=add_prefix_space)
+        tokenizer.decoder = decoders.Metaspace(replacement=replacement, add_prefix_space=add_prefix_space)
 
         parameters = {
             "model": "SentencePieceBPE",

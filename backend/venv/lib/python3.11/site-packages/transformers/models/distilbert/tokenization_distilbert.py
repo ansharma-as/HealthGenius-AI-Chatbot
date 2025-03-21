@@ -27,6 +27,42 @@ logger = logging.get_logger(__name__)
 
 VOCAB_FILES_NAMES = {"vocab_file": "vocab.txt"}
 
+PRETRAINED_VOCAB_FILES_MAP = {
+    "vocab_file": {
+        "distilbert-base-uncased": "https://huggingface.co/distilbert-base-uncased/resolve/main/vocab.txt",
+        "distilbert-base-uncased-distilled-squad": (
+            "https://huggingface.co/distilbert-base-uncased-distilled-squad/resolve/main/vocab.txt"
+        ),
+        "distilbert-base-cased": "https://huggingface.co/distilbert-base-cased/resolve/main/vocab.txt",
+        "distilbert-base-cased-distilled-squad": (
+            "https://huggingface.co/distilbert-base-cased-distilled-squad/resolve/main/vocab.txt"
+        ),
+        "distilbert-base-german-cased": "https://huggingface.co/distilbert-base-german-cased/resolve/main/vocab.txt",
+        "distilbert-base-multilingual-cased": (
+            "https://huggingface.co/distilbert-base-multilingual-cased/resolve/main/vocab.txt"
+        ),
+    }
+}
+
+PRETRAINED_POSITIONAL_EMBEDDINGS_SIZES = {
+    "distilbert-base-uncased": 512,
+    "distilbert-base-uncased-distilled-squad": 512,
+    "distilbert-base-cased": 512,
+    "distilbert-base-cased-distilled-squad": 512,
+    "distilbert-base-german-cased": 512,
+    "distilbert-base-multilingual-cased": 512,
+}
+
+
+PRETRAINED_INIT_CONFIGURATION = {
+    "distilbert-base-uncased": {"do_lower_case": True},
+    "distilbert-base-uncased-distilled-squad": {"do_lower_case": True},
+    "distilbert-base-cased": {"do_lower_case": False},
+    "distilbert-base-cased-distilled-squad": {"do_lower_case": False},
+    "distilbert-base-german-cased": {"do_lower_case": False},
+    "distilbert-base-multilingual-cased": {"do_lower_case": False},
+}
+
 
 # Copied from transformers.models.bert.tokenization_bert.load_vocab
 def load_vocab(vocab_file):
@@ -90,12 +126,12 @@ class DistilBertTokenizer(PreTrainedTokenizer):
         strip_accents (`bool`, *optional*):
             Whether or not to strip all accents. If this option is not specified, then it will be determined by the
             value for `lowercase` (as in the original BERT).
-        clean_up_tokenization_spaces (`bool`, *optional*, defaults to `True`):
-            Whether or not to cleanup spaces after decoding, cleanup consists in removing potential artifacts like
-            extra spaces.
     """
 
     vocab_files_names = VOCAB_FILES_NAMES
+    pretrained_vocab_files_map = PRETRAINED_VOCAB_FILES_MAP
+    pretrained_init_configuration = PRETRAINED_INIT_CONFIGURATION
+    max_model_input_sizes = PRETRAINED_POSITIONAL_EMBEDDINGS_SIZES
     model_input_names = ["input_ids", "attention_mask"]
 
     def __init__(
@@ -111,7 +147,6 @@ class DistilBertTokenizer(PreTrainedTokenizer):
         mask_token="[MASK]",
         tokenize_chinese_chars=True,
         strip_accents=None,
-        clean_up_tokenization_spaces=True,
         **kwargs,
     ):
         if not os.path.isfile(vocab_file):
@@ -142,7 +177,6 @@ class DistilBertTokenizer(PreTrainedTokenizer):
             mask_token=mask_token,
             tokenize_chinese_chars=tokenize_chinese_chars,
             strip_accents=strip_accents,
-            clean_up_tokenization_spaces=clean_up_tokenization_spaces,
             **kwargs,
         )
 
@@ -300,7 +334,7 @@ class DistilBertTokenizer(PreTrainedTokenizer):
 
 
 # Copied from transformers.models.bert.tokenization_bert.BasicTokenizer
-class BasicTokenizer:
+class BasicTokenizer(object):
     """
     Constructs a BasicTokenizer that will run basic tokenization (punctuation splitting, lower casing, etc.).
 
@@ -462,7 +496,7 @@ class BasicTokenizer:
 
 
 # Copied from transformers.models.bert.tokenization_bert.WordpieceTokenizer
-class WordpieceTokenizer:
+class WordpieceTokenizer(object):
     """Runs WordPiece tokenization."""
 
     def __init__(self, vocab, unk_token, max_input_chars_per_word=100):
@@ -517,6 +551,3 @@ class WordpieceTokenizer:
             else:
                 output_tokens.extend(sub_tokens)
         return output_tokens
-
-
-__all__ = ["DistilBertTokenizer"]

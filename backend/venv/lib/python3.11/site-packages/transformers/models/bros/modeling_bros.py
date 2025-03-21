@@ -12,7 +12,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-"""PyTorch Bros model."""
+""" PyTorch Bros model."""
+
 
 import math
 from dataclasses import dataclass
@@ -46,6 +47,11 @@ logger = logging.get_logger(__name__)
 _CHECKPOINT_FOR_DOC = "jinho8345/bros-base-uncased"
 _CONFIG_FOR_DOC = "BrosConfig"
 
+BROS_PRETRAINED_MODEL_ARCHIVE_LIST = [
+    "jinho8345/bros-base-uncased",
+    "jinho8345/bros-large-uncased",
+    # See all Bros models at https://huggingface.co/models?filter=bros
+]
 
 BROS_START_DOCSTRING = r"""
     This model is also a PyTorch [torch.nn.Module](https://pytorch.org/docs/stable/nn.html#torch.nn.Module) subclass.
@@ -1312,12 +1318,3 @@ class BrosSpadeELForTokenClassification(BrosPreTrainedModel):
             hidden_states=outputs.hidden_states,
             attentions=outputs.attentions,
         )
-
-
-__all__ = [
-    "BrosPreTrainedModel",
-    "BrosModel",
-    "BrosForTokenClassification",
-    "BrosSpadeEEForTokenClassification",
-    "BrosSpadeELForTokenClassification",
-]

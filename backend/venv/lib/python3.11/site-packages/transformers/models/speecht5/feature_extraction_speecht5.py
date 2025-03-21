@@ -391,6 +391,3 @@ class SpeechT5FeatureExtractor(SequenceFeatureExtractor):
                 del output[name]
 
         return output
-
-
-__all__ = ["SpeechT5FeatureExtractor"]
